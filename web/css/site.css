@@ -1,0 +1,273 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron img.site-logo {
+    width: 100%;
+    max-width: 1000px;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0px;
+}
+
+div.required label.control-label:after {
+    content: " *";
+    color: red;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+/* Site */
+.panel-crud .pull-right {
+  float: right !important; }
+.panel-crud .pull-left {
+  float: left !important; }
+.panel-crud .clearfix {
+  clear: both;
+  line-height: normal; }
+.breadcrumb {
+  font-size: 12px;
+  margin: 0 0 20px 0;
+  padding: 8px 0;
+  border: 1px solid #ddd; }
+  .breadcrumb > li {
+    text-shadow: 0 1px 0 #FFF;
+    padding: 0 14px;
+    position: relative;
+    white-space: nowrap; }
+  .breadcrumb > li::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -3px;
+    right: -5px;
+    width: 24px;
+    height: 24px;
+    border-right: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+  .breadcrumb > li + li::before {
+    content: '';
+    padding: 0;}
+
+.app-module-menu .shortcuts {
+  max-width: 200px;
+  min-width: 125px;
+  width: 100%;
+  display: inline-block;
+  padding: 12px 0px;
+  margin: 0px 0.9% 1em;
+  vertical-align: top;
+  text-decoration: none;
+  background-color: #F3F3F3;
+  border-radius: 5px;
+  text-align: center;
+  color: #888; }
+  .app-module-menu .shortcuts:hover {
+    background-color: #E8E8E8;
+    color: #ff6300; }
+  .app-module-menu .shortcuts .shortcut-icon {
+    font-size: 24px; }
+  .app-module-menu .shortcuts .shortcut-label {
+    display: block; }
+
+.panel-crud, .panel-form {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #3a87ad;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,.05); }
+  .panel-crud .panel-heading, .panel-form .panel-heading {
+    font-size: 16px;
+    color: #fff;
+    background-color: #3a87ad;
+    border-bottom: 1px solid #3a87ad;
+    border-color: #3a87ad; }
+  .panel-crud .panel-footer {
+    padding: 10px 15px;
+    color: #ffffff;
+    background-color: #3a87ad;
+    border-top: 1px solid #3a87ad;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px; }
+    .panel-crud .panel-footer .pagination {
+      margin: 0 0 -5px;
+      padding: 0; }
+      .panel-crud .panel-footer .pagination > .active > a {
+        color: #fff;
+        background-color: #dd4814;
+        border-color: #dd4814; }
+  .panel-crud table {
+    margin-bottom: 0px; }
+.panel-form .formmod {
+  max-width: 600px;
+  width: 100%;
+  padding: 0px 10px;
+  margin: 10px auto 0px auto; }
+  .panel-form .formmod .checkbox-inline {
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-left: -10px;
+    margin-right: -10px; }
+    .panel-form .formmod .checkbox-inline > div.checkbox {
+      display: inline-block;
+      vertical-align: middle;
+      padding-right: 10px;
+      padding-left: 10px;      
+    }
+footer.panel-footer {
+  padding-top: 19px;
+  padding-bottom: 19px; }
+
+a.nofication > div {
+  background-color: #247198;
+  background-image: linear-gradient(to bottom, #3a87ad, #247198);
+  background-repeat: repeat-x;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  left: 1%;
+  top:60px;
+  border-radius: 50%; }
+  a.nofication > div i {
+    position: relative;
+    left: 14px;
+    top: 8px;
+    color: #ddd; }
+    a.nofication > div i:hover, a.nofication > div i:focus {
+      color: #dd4814; }
+  a.nofication > div span {
+    position: absolute;
+    margin-right: -10px;
+    right: 0px;
+    top: 32px; }
+a.nav-language {
+  margin-top: 15px;
+  display: inline-block; }
+  a.nav-language span {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  a.nav-language span.active {
+    background-color: #444;
+    color: #fff; }
+  a.nav-language span:hover, a.nav-language span:focus {
+    color: #000; }
+.stat {
+  margin-top: 15px; }
+  .stat table .headColumn {
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold; }
+  .stat table tr.vertical > td {
+    position: relative;
+    width: 1px;
+    padding: 10px 4px;
+    margin: 0px; }
+    .stat table tr.vertical > td > div {
+      width: 30px;
+      text-align: center;
+      vertical-align: middle;
+      white-space: nowrap;
+      transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg); /* Safari/Chrome */
+      -moz-transform: rotate(-90deg); /* Firefox */
+      -o-transform: rotate(-90deg); /* Opera */
+      -ms-transform: rotate(-90deg); /* IE 9 */
+    }
+    .stat table tr.vertical > td > div .headVertical {
+      position: absolute;
+      top: -10px;
+      right: 12px;
+    }

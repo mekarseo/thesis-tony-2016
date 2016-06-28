@@ -1,0 +1,6 @@
+{
+  "name": "bower.json",
+  "dependencies": {
+    "font-awesome": "^4.5.0"
+  }
+}
